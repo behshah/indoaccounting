@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
-/*
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1929,36 +1925,66 @@ input, select, textarea {
 			top: 0;
 			width: 2.25em;
 		}
+		.topol.belesy{
+			-moz-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+			border: 0;
+			border-radius: 100%;
+			display: inline-block;
+			font-size: 1.25em;
+			height: 2.25em;
+			left: 0;
+			line-height: 2.25em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 2.25em;
+		}
 
 			.icon.circle:hover {
 				top: -0.2em;
 			}
-
-			.icon.circle.fa-twitter {
-				background: #70aecd;
-				color: #fff;
+			.topol.belesy:hover{
+				top: -0.2em;
 			}
-
-				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
+			/* .icon.circlee:hover {
+				top: -0.2em;
+			} */
+			
+			.icon.circle.fa-instagram {
+				/* background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); */
+				color:black;
+				background-color: white;
+			}
+			
+			.icon.circle.fa-instagram:hover {
+				/* background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); */
+				background-color: white;
 				}
 
-			.icon.circle.fa-facebook-f {
-				background: #7490c3;
-				color: #fff;
+			.icon.circle.fa-envelope {
+				/* background: #7490c3; */
+				color:black;
+				background-color: white;
+
 			}
 
-				.icon.circle.fa-facebook-f:hover {
-					background: #829bc9;
+				.icon.circle.fa-envelope:hover {
+					/* background: #829bc9; */
+					background-color: white;
 				}
 
-			.icon.circle.fa-google-plus-g {
-				background: #db6b67;
-				color: #fff;
+			.fa.fa-phone {
+				/* background: #db6b67; */
+				color:black;
+				background-color: white;
 			}
 
-				.icon.circle.fa-google-plus-g:hover {
-					background: #df7b77;
+			.fa.fa-phone:hover {
+					background-color: white;
+					top: -0.2em;
 				}
 
 			.icon.circle.fa-github {
@@ -2527,7 +2553,8 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"),
+		 url("images/overlay.png"), url("../../images/banner.png");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2625,7 +2652,7 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/tax-icons.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
